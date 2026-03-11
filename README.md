@@ -11,7 +11,7 @@ Ce projet affiche différentes formes en console (triangles et double triangle) 
 ![kotlin-lab3](https://github.com/user-attachments/assets/22244cb4-fbc9-4fee-a814-b20defe559f0)
 
 - Task 3 : Double triangle (montée + descente)
-  ![kotlin-lab3]([https://github.com/user-attachments/assets/22244cb4-fbc9-4fee-a814-b20defe559f0](https://github.com/user-attachments/assets/a61f4814-912a-4ca3-9e6d-fe012f1d53c4)
+  ![kotlin-lab3](https://github.com/user-attachments/assets/a61f4814-912a-4ca3-9e6d-fe012f1d53c4)
   
 
 ## Utilisation
