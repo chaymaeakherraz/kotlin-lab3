@@ -1,1 +1,63 @@
+fun main() {
+    val height = 5
+
+    // -------------------
+    // Task 1 : Triangle aligné à droite
+    // -------------------
+    println("Task 1 : Triangle aligné à droite")
+    for (i in 1..height) {
+        val numberOfSpaces = i - 1
+        for (j in 1..numberOfSpaces) print(" ")
+
+        val numberOfStars = height + 1 - i
+        for (j in 1..numberOfStars) print("*")
+
+        println()
+    }
+
+    println() // séparation
+
+    // -------------------
+    // Task 2 : Triangle impair aligné à droite
+    // -------------------
+    println("Task 2 : Triangle impair aligné à droite")
+    for (i in 1..height) {
+        val numberOfSpaces = i - 1
+        for (j in 1..numberOfSpaces) print(" ")
+
+        val numberOfStars = (height * 2 + 1) - i * 2
+        for (j in 1..numberOfStars) print("*")
+
+        println()
+    }
+
+    println() // séparation
+
+    // -------------------
+    // Task 3 : Double triangle (montée + descente)
+    // -------------------
+    println("Task 3 : Double triangle (montée + descente)")
+
+    // montée: 1..height
+    for (i in 1..height) {
+        val numberOfSpaces = height - i
+        for (j in 1..numberOfSpaces) print(" ")
+
+        val numberOfStars = i
+        for (j in 1..numberOfStars) print("*")
+
+        println()
+    }
+
+    // descente: (height-1)..1
+    for (i in (height - 1) downTo 1) {
+        val numberOfSpaces = height - i
+        for (j in 1..numberOfSpaces) print(" ")
+
+        val numberOfStars = i
+        for (j in 1..numberOfStars) print("*")
+
+        println()
+    }
+}
 
